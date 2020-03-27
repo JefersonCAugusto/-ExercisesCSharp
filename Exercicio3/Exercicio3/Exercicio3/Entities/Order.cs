@@ -37,7 +37,14 @@ namespace Exercicio3.Entities
             return sum;
         }
 
-
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Order Summary");
+            sb.Append("Order Hour: "); sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.Append("Order status: "); sb.AppendLine(Status.ToString());
+            sb.Append("Client: "); sb.AppendLine()
+        }
 
     }
 }
