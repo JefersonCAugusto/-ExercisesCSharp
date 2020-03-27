@@ -8,7 +8,7 @@ namespace Exercicio3.Entities
     {
         public DateTime Moment { get; set; }
         public OrderStatus Status { get; set; }
-        public List<OrderItem> Itens { get; set; } = new List<OrderItem>();
+        public List<OrderItem> Items { get; set; } = new List<OrderItem>();
 
         public Order(DateTime moment, OrderStatus status)
         {
@@ -18,12 +18,23 @@ namespace Exercicio3.Entities
 
         public void AddItens(OrderItem orderItem)
         {
-            Itens.Add(orderItem);
+            Items.Add(orderItem);
         }
         public void RemovItens(OrderItem orderItem)
         {
-            Itens.Remove(orderItem);
+            Items.Remove(orderItem);
         }
+        public double Total()
+        {
+            double sum = 0;
+            foreach (OrderItem items in Items)
+            {
+                sum = sum + items.SubTotal();
+            }
+            return sum;
+        }
+
+
 
     }
 }
