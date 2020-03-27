@@ -11,10 +11,11 @@ namespace Exercicio3.Entities
         public Product Product { get; set; }
 
 
-        public OrderItem(int quantity, double price)
+        public OrderItem(int quantity, double price, string product)
         {
             Quantity = quantity;
             Price = price;
+            AddProduct(product);
         }
 
 

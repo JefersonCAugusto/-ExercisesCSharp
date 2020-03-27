@@ -38,7 +38,7 @@ namespace Exercicio3
                 Console.WriteLine("Product quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
 
-                OrderItem prod = new OrderItem;
+                OrderItem prod = new OrderItem(quantity, price,product);
 
             }
 
