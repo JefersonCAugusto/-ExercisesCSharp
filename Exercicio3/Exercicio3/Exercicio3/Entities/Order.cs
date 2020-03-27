@@ -11,21 +11,21 @@ namespace Exercicio3.Entities
         public List<OrderItem> Items { get; set; } = new List<OrderItem>();
         public Client Client { get; set; }
 
-        public Order(DateTime moment, OrderStatus status, string name, string email,DateTime birth)
+        public Order(DateTime moment, OrderStatus status, string name, string email, DateTime birth)
         {
             Moment = moment;
             Status = status;
-            Client c1= new Client(name, email, birth);
-
+          //  Client c1 = new Client(name, email, birth); //outra forma instanciando Cliente
+            // Client.AddData(name, email, birth);
         }
 
         public void AddItens(OrderItem orderItem)
         {
             Items.Add(orderItem);
         }
-        public void RemovItens(OrderItem orderItem)
+        public void RemovItens(OrderItem procuct)
         {
-            Items.Remove(orderItem);
+            Items.Remove(procuct);
         }
         public double Total()
         {
@@ -37,33 +37,11 @@ namespace Exercicio3.Entities
             return sum;
         }
 
-        public override string ToString()
+        public void AddClient(Client client)
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Order Summary");
-            sb.Append("Order Hour: "); sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
-            sb.Append("Order status: "); sb.AppendLine(Status.ToString());
-            sb.Append("Client: "); sb.Append(Client.Name + " - "); 
-            sb.Append(Client.BirthDate + " - "); sb.Append(Client.Email+"\n\n");
-            sb.AppendLine("------Order Items------");
-            sb.AppendLine("Order items: ");
-            double total = 0;
-            foreach (OrderItem producList in Items)
-            {
-                sb.Append(producList.Product+", "); 
-                sb.Append("$"+producList.Price);
-                sb.Append(" Quantity: "); 
-                sb.Append(producList.Quantity.ToString()+" "); 
-                sb.Append("Subtotal: ");
-                sb.AppendLine(producList.SubTotal().ToString());
-                total += producList.SubTotal();
-            }
+            Client = client;
 
-            sb.Append("TOTAL PRICE: $");
-            sb.AppendLine(total.ToString());
-
-            return ToString();
-        }   
-
+        }
+       
     }
 }

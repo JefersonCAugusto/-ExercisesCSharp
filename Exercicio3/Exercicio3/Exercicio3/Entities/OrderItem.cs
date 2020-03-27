@@ -11,11 +11,12 @@ namespace Exercicio3.Entities
         public Product Product { get; set; }
 
 
-        public OrderItem(int quantity, double price, string product)
+        public OrderItem(int quantity, double price, Product prod1)
         {
             Quantity = quantity;
             Price = price;
-            AddProduct(product);
+            Product = prod1;
+    
         }
 
 
@@ -24,10 +25,10 @@ namespace Exercicio3.Entities
             return Quantity * Price;
         }
 
-        public void AddProduct(string product)
+        public void AddProduct(double price, string product)
         {
-            Product.Name = product;
-            Product.Price = Price;
+            Product p1 = new Product(product, price);
+      
         }
 
         public void RemovProduct(string product)

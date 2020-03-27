@@ -17,5 +17,17 @@ namespace Exercicio3.Entities
             BirthDate = birthDate;
         }
 
+        public void AddData(String name, string email, DateTime birth) 
+        {
+            Name = name;
+            Email = email;
+            BirthDate = birth;
+        }
+
+        public string GetName()
+        {
+            return Name; 
+        }
+
     }
 }
