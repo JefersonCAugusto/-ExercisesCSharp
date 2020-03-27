@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Exercicio3.Entities.Enums
 {
-    class OrderStatus
+    enum OrderStatus : int
     {
+        Pending_payment = 0,
+        Processing = 1,
+        Shipped = 2,
+        Delivered = 3
     }
 }
