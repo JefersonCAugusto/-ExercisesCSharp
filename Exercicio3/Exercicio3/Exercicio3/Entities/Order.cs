@@ -9,6 +9,7 @@ namespace Exercicio3.Entities
         public DateTime Moment { get; set; }
         public OrderStatus Status { get; set; }
         public List<OrderItem> Items { get; set; } = new List<OrderItem>();
+        public Client Client { get; set; }
 
         public Order(DateTime moment, OrderStatus status)
         {

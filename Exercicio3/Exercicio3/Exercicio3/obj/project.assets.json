@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guto\\Documents\\Visual Studio 2019\\Exercicio\\Exercicio3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
+      "projectUniqueName": "C:\\Users\\Guto\\Documents\\Visual Studio 2019\\-ExercisesCSharp\\Exercicio3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
       "projectName": "Exercicio3",
-      "projectPath": "C:\\Users\\Guto\\Documents\\Visual Studio 2019\\Exercicio\\Exercicio3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
+      "projectPath": "C:\\Users\\Guto\\Documents\\Visual Studio 2019\\-ExercisesCSharp\\Exercicio3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
       "packagesPath": "C:\\Users\\Guto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guto\\Documents\\Visual Studio 2019\\Exercicio\\Exercicio3\\Exercicio3\\Exercicio3\\obj\\",
+      "outputPath": "C:\\Users\\Guto\\Documents\\Visual Studio 2019\\-ExercisesCSharp\\Exercicio3\\Exercicio3\\Exercicio3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
