@@ -17,7 +17,7 @@ namespace Exercicio3
             Console.WriteLine("Enter with birth date(DD/MM/AAAA): ");
             DateTime dateTemp = DateTime.Now;
 
-            Console.WriteLine("Status(Pending_payment/Processing/Shipped/Delivered: ");
+            Console.Write("Status (Pending_payment/Processing/Shipped/Delivered: ");
             OrderStatus orderTemp = Enum.Parse<OrderStatus>(Console.ReadLine());
 
             Console.WriteLine("how many products do you want to buy?");
@@ -25,13 +25,25 @@ namespace Exercicio3
 
 
             Order order = new Order(dateTemp, orderTemp);
-            order.Cli
-            for (int i=1;i<=nProduct;i++)
-            Console.WriteLine("");
+            order.Client.Name = nameTemp;
+            order.Client.Email = emailTemp;
+            for (int i = 1; i <= nProduct; i++)
+            {
+                Console.WriteLine("Product name: ");
+                string product = Console.ReadLine();
 
-            
-            
-           
+                Console.WriteLine("Product price: ");
+                double price = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Product quantity: ");
+                int quantity = int.Parse(Console.ReadLine());
+
+                OrderItem prod = new OrderItem;
+
+            }
+
+
+
         }
     }
 }

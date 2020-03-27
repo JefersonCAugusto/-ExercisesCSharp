@@ -22,5 +22,17 @@ namespace Exercicio3.Entities
         {
             return Quantity * Price;
         }
+
+        public void AddProduct(string product)
+        {
+            Product.Name = product;
+            Product.Price = Price;
+        }
+
+        public void RemovProduct(string product)
+        {
+            Product.Name = product;
+        }
+
     }
 }
