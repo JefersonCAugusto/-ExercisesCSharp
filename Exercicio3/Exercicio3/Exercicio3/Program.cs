@@ -15,7 +15,7 @@ namespace Exercicio3
             string emailTemp = Console.ReadLine();
 
             Console.WriteLine("Enter with birth date(DD/MM/AAAA): ");
-            DateTime dateTemp = DateTime.Now;
+            DateTime birthTemp = DateTime.Parse(Console.ReadLine());
 
             Console.Write("Status (Pending_payment/Processing/Shipped/Delivered: ");
             OrderStatus orderTemp = Enum.Parse<OrderStatus>(Console.ReadLine());
@@ -23,8 +23,9 @@ namespace Exercicio3
             Console.WriteLine("how many products do you want to buy?");
             int nProduct = int.Parse(Console.ReadLine());
 
+            DateTime momentTemp = DateTime.Now;
 
-            Order order = new Order(dateTemp, orderTemp,nameTemp,emailTemp);
+            Order order = new Order(momentTemp, orderTemp,nameTemp,emailTemp,birthTemp);
      
             for (int i = 1; i <= nProduct; i++)
             {
