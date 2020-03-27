@@ -47,18 +47,22 @@ namespace Exercicio3.Entities
             sb.Append(Client.BirthDate + " - "); sb.Append(Client.Email+"\n\n");
             sb.AppendLine("------Order Items------");
             sb.AppendLine("Order items: ");
-            foreach (OrderItem producList in Items)//    sb.AppendLine();
+            double total = 0;
+            foreach (OrderItem producList in Items)
             {
-                sb.Append(producList.Product+", "); sb.Append("$"+producList.Price);sb.Append(" Quantity: "); sb.Append(producList.Quantity.ToString()+" "); sb.Append("Subtotal: ")
-                double subtotal = producList.SubTotal;  
-                sb.AppendLine(producList.SubTotal.ToString()); ;
-
-
-
-                producList.
+                sb.Append(producList.Product+", "); 
+                sb.Append("$"+producList.Price);
+                sb.Append(" Quantity: "); 
+                sb.Append(producList.Quantity.ToString()+" "); 
+                sb.Append("Subtotal: ");
+                sb.AppendLine(producList.SubTotal().ToString());
+                total += producList.SubTotal();
             }
-            
 
+            sb.Append("TOTAL PRICE: $");
+            sb.AppendLine(total.ToString());
+
+            return ToString();
         }   
 
     }
