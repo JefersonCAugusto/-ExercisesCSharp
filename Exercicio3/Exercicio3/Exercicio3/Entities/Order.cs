@@ -11,10 +11,12 @@ namespace Exercicio3.Entities
         public List<OrderItem> Items { get; set; } = new List<OrderItem>();
         public Client Client { get; set; }
 
-        public Order(DateTime moment, OrderStatus status)
+        public Order(DateTime moment, OrderStatus status, string name, string email)
         {
             Moment = moment;
             Status = status;
+            Client.Name = name;
+            Client.Email = email;
         }
 
         public void AddItens(OrderItem orderItem)

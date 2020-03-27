@@ -24,9 +24,8 @@ namespace Exercicio3
             int nProduct = int.Parse(Console.ReadLine());
 
 
-            Order order = new Order(dateTemp, orderTemp);
-            order.Client.Name = nameTemp;
-            order.Client.Email = emailTemp;
+            Order order = new Order(dateTemp, orderTemp,nameTemp,emailTemp);
+     
             for (int i = 1; i <= nProduct; i++)
             {
                 Console.WriteLine("Product name: ");
@@ -38,9 +37,11 @@ namespace Exercicio3
                 Console.WriteLine("Product quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
 
-                OrderItem prod = new OrderItem(quantity, price,product);
+                OrderItem prod = new OrderItem(quantity, price, product);
+                order.Items.Add(prod);
 
             }
+
 
 
 
