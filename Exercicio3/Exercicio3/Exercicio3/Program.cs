@@ -11,7 +11,7 @@ namespace Exercicio3
             Console.Write("Name: ");
             string nameTemp = Console.ReadLine();
 
-            Console.Write("Enter with Email");
+            Console.Write("Enter with Email: ");
             string emailTemp = Console.ReadLine();
 
             Console.WriteLine("Enter with birth date(DD/MM/AAAA): ");
