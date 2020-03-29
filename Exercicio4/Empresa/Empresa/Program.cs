@@ -18,8 +18,17 @@ namespace Empresa
                 Console.Write("name: ");
                 string nameTemp = Console.ReadLine();
                 Console.WriteLine("Hours: ");
-                int hourTemp = int.Parse(Console.ReadLine());
 
+
+
+                int hourTemp = int.Parse(Console.ReadLine());
+                if (type =="y")
+                { 
+                    Console.Write("additional expenses: ");
+                    double additTemp = double.Parse(Console.ReadLine());
+                    OutOfMemoryException empOut = new OutsourcedEmployee(nameTemp,hourTemp,)
+                     
+                }
 
             }
         }
