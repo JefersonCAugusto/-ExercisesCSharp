@@ -24,14 +24,15 @@ namespace Empresa
                 
                 if (type =="y")
                 { 
-                    Console.Write("additional expenses: ");
+                    Console.Write("Additional expenses: ");
                     double additTemp = double.Parse(Console.ReadLine());
-                    OutsourcedEmployee eO1 = new OutsourcedEmployee(nameTemp, hourTemp, valuePHTemp, additTemp);
-                    empl.Add(eO1);     //UpCast  lista de employee recebendo outsourcedemployee
+                    Employee e1 = new OutsourcedEmployee(nameTemp, hourTemp, valuePHTemp, additTemp);
+                    empl.Add(e1);     //UpCast  lista de employee recebendo outsourcedemployee
                 }
                 else
                 {
                     Employee e1 = new Employee(nameTemp, hourTemp, valuePHTemp);
+                    empl.Add(e1);
 
                 }
             }
