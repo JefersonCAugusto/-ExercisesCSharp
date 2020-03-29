@@ -17,7 +17,7 @@ namespace Empresa
                 string type = Console.ReadLine();
                 Console.Write("name: ");
                 string nameTemp = Console.ReadLine();
-                Console.WriteLine("Hours: ");
+                Console.Write("Hours: ");
                 int hourTemp = int.Parse(Console.ReadLine());
                 Console.Write("ValuePerHour: ");
                 int valuePHTemp = int.Parse(Console.ReadLine());
@@ -35,13 +35,13 @@ namespace Empresa
 
                 }
             }
-            Console.WriteLine("Pagamentos");
-            for (int i=0; i<empl.Count ;i++)
+            Console.WriteLine("--------Pagamentos---------");
+            foreach(Employee emp in empl)
             {
-                Console.Write(empl[i].Name);
+                Console.Write(emp.Name);
                 Console.Write(" - $");
-                Console.Write(empl[i].Payment());
-                Console.WriteLine();
+                Console.Write(emp.Payment());
+                Console.WriteLine("---------------");
 
 
             }
