@@ -36,7 +36,15 @@ namespace Empresa
                 }
             }
             Console.WriteLine("Pagamentos");
+            for (int i=0; i<empl.Count ;i++)
+            {
+                Console.Write(empl[i].Name);
+                Console.Write(" - $");
+                Console.Write(empl[i].Payment());
+                Console.WriteLine();
 
+
+            }
         }
     }
 }

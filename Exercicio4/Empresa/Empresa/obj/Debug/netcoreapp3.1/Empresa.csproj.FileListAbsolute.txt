@@ -1,0 +1,11 @@
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\bin\Debug\netcoreapp3.1\Empresa.exe
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\bin\Debug\netcoreapp3.1\Empresa.deps.json
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\bin\Debug\netcoreapp3.1\Empresa.runtimeconfig.json
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\bin\Debug\netcoreapp3.1\Empresa.runtimeconfig.dev.json
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\bin\Debug\netcoreapp3.1\Empresa.dll
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\bin\Debug\netcoreapp3.1\Empresa.pdb
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\obj\Debug\netcoreapp3.1\Empresa.csprojAssemblyReference.cache
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\obj\Debug\netcoreapp3.1\Empresa.AssemblyInfoInputs.cache
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\obj\Debug\netcoreapp3.1\Empresa.AssemblyInfo.cs
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\obj\Debug\netcoreapp3.1\Empresa.dll
+C:\Users\Guto\Documents\Visual Studio 2019\-ExercisesCSharp\Exercicio4\Empresa\Empresa\obj\Debug\netcoreapp3.1\Empresa.pdb
