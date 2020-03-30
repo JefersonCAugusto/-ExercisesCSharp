@@ -13,5 +13,10 @@ namespace CalcArea.Entities
         {
             Radius = radius;
         }
+
+        public override double Area()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

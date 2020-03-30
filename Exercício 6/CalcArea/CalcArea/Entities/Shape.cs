@@ -6,7 +6,7 @@ using CalcArea.Entities;
 
 namespace CalcArea.Entities
 {
-    class Shape
+    abstract class Shape
     {
         public Color Color { get; set; }
 
@@ -14,6 +14,8 @@ namespace CalcArea.Entities
         {
             Color = color;
         }
+
+        public abstract double Area();
 
     }
 }
