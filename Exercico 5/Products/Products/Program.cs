@@ -22,12 +22,34 @@ namespace Products
 
                 switch (type)
                 {
-                    case "C": Product c1 = new Product(name, price);
+                    case "C":
+                        Product c1 = new Product(name, price);
                         p1.Add(c1);
                         break;
-                    case "U": Console.Write("Manufacture Date: (DD/MM/YYY): ");
+                    case "U":
+                        Console.Write("Manufacture Date: (DD/MM/YYY): ");
+                        DateTime manucafture = DateTime.Parse(Console.ReadLine());
+                        Product u1 = new UsedProduct(manucafture, name, price);
+                        p1.Add(u1);
+                        break;
+                    case "I":
+                        Console.WriteLine("Customs fee: ");
+                        double fee = double.Parse(Console.ReadLine());
+                        Product i1 = new ImportedProduct(fee, name, price);
+                        p1.Add(i1);
+                        break;
+                    default:
+                        Console.WriteLine("Invalid");
+                        break;
+
                 }
-            }
+                foreach(Product product in p1)
+                {
+                    Console.WriteLine(product.PriceTag);
+
+                }
+
             }
         }
     }
+}
