@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 using CalcArea.Entities.Enums;
-using CalcArea.Entities;
 
 namespace CalcArea.Entities
 {
