@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using CalcArea.Entities.Enums;
 
 namespace CalcArea.Entities
@@ -16,7 +14,7 @@ namespace CalcArea.Entities
 
         public override double Area()
         {
-            throw new NotImplementedException();
+            return Math.PI * Math.Pow(Radius, 2);
         }
     }
 }
