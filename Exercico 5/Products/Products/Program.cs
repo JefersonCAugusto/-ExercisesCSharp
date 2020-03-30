@@ -12,6 +12,8 @@ namespace Products
             List<Product> p1 = new List<Product>();
             for (int i = 0; i < n1; i++)
             {
+                if (i>0)
+                    Console.WriteLine("--------------------------------");
                 Console.Write("This product is:\nCommon(C), Used(U) or Imported(I)");
                 string type = Console.ReadLine().ToUpper();
                 Console.WriteLine("Product #{0}: ", i + 1);
@@ -42,12 +44,14 @@ namespace Products
                         Console.WriteLine("Invalid");
                         break;
 
-                }
-                foreach(Product product in p1)
-                {
-                    Console.WriteLine(product.PriceTag);
 
                 }
+              
+
+            }
+            foreach (Product product in p1)
+            {
+                Console.WriteLine(product.PriceTag());
 
             }
         }
