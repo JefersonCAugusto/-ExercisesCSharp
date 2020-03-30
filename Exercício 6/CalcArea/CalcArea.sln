@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcArea", "CalcArea\CalcArea.csproj", "{60F21827-0EC3-4069-AD55-77F28B9CF418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60F21827-0EC3-4069-AD55-77F28B9CF418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F21827-0EC3-4069-AD55-77F28B9CF418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F21827-0EC3-4069-AD55-77F28B9CF418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F21827-0EC3-4069-AD55-77F28B9CF418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {066393B5-3AA8-4BDC-BC45-DD6DF6DF71B6}
+	EndGlobalSection
+EndGlobal
