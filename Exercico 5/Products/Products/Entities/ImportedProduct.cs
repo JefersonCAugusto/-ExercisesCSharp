@@ -20,8 +20,8 @@ namespace Products.Entities
         }
         public override string PriceTag()
         {
-               
-            return $"Name: {Name} ${TotalPrice()}";
+
+            return $"Item: {Name} ${TotalPrice()}";
 
         }
     }
