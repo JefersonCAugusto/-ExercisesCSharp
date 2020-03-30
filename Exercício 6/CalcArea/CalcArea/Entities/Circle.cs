@@ -1,10 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CalcArea.Entities.Enums;
 
-namespace CalcArea
+namespace CalcArea.Entities
 {
-    class Circle
+    class Circle : Shape
     {
+        public double Radius { get; set; }
+
+        public Circle(double radius, Color color): base(color)
+        {
+            Radius = radius;
+        }
     }
 }
