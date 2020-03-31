@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace IncomeTax.Entities
+﻿namespace IncomeTax.Entities
 {
     public abstract class TaxPayer
     {
