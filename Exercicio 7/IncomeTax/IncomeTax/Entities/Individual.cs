@@ -13,18 +13,11 @@
         {
             if (AnualIncame <= 20000)
             {
-                if (HealthSpent > 0)
-                    return (AnualIncame * 0.15) - (HealthSpent * 0.5);
-                else
-                    return (AnualIncame * 0.15);
+                return (AnualIncame * 0.15) - (HealthSpent * 0.5);
             }
             else
             {
-                if (HealthSpent > 0)
-                    return (AnualIncame * 0.25) - (HealthSpent * 0.5);
-                else
-                    return (AnualIncame * 0.25);
-
+                return (AnualIncame * 0.25) - (HealthSpent * 0.5);
             }
 
         }
