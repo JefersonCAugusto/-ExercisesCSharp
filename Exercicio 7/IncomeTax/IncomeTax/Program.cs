@@ -6,7 +6,7 @@ namespace IncomeTax
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
         }
     }
 }
