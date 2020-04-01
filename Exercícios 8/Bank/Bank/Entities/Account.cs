@@ -32,9 +32,9 @@ namespace Bank.Entities
         public void Withdraw(double amount)
         {
             if (amount > Balance)
-                throw new LimitException("Saque maior que saldo");
+                throw new LimitException("Withdraw more than balance.");
             if (amount > WithdrawLimit)
-                throw new LimitOfRangeException("saque excede o limite permitido.");
+                throw new LimitOfRangeException("withdrawal exceeds the allowed limit.");
                 Balance -= amount;
         }
 

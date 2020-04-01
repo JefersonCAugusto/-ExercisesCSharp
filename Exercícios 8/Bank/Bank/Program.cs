@@ -23,6 +23,7 @@ namespace Bank
                 Account ac1 = new Account(number, holder, balance, withdrawLimit);
                 Console.Write("Enter amount for withdraw: ");
                 ac1.Withdraw(double.Parse(Console.ReadLine()));
+                Console.WriteLine(ac1);
 
             }
             catch (LimitException e)
