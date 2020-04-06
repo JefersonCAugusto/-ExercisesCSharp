@@ -4,7 +4,9 @@ using System.Text;
 
 namespace GeneratorC.Services
 {
-    class IInterest
+    interface IOnlinePaymentoService
     {
+
+
     }
 }
