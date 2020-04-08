@@ -9,15 +9,15 @@ namespace GeneratorC.Services
     {
 
 
-        public double Paymentfee(double amaunt)
+        public double Interest(double amaunt, int month)
         {
-            double temp = (amaunt*0.01)+amaunt;
+            double temp = (amaunt*0.01 * month) +amaunt;
             return temp;
         }
 
-        public double Interest(double amaunt, int month)
+        public double Paymentfee(double amaunt)
         {
-            double temp = (amaunt * 0.01*month) + amaunt;
+            double temp = (amaunt * 0.02) + amaunt;
             return temp;
         }
 
