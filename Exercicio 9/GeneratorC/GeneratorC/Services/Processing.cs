@@ -7,7 +7,12 @@ namespace GeneratorC.Services
 {
     class Processing
     {
-        public Contract Contract { get; private set; }
+       public IOnlinePaymentoService _onlinePaymentoService { get; set; }
+
+      
+
+        
+
 
     }
 }

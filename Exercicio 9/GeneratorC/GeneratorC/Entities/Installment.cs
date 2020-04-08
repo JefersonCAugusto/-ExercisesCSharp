@@ -6,13 +6,13 @@ namespace GeneratorC.Entities
 {
     class Installment           //prestações
     {
-        public DateTime Date { get; set; }
+        public DateTime DueDate { get; set; }
         public double Amount { get; set; }
-        public int Quantity { get; private set; }
+      
 
-        public Installment(DateTime date, double amount)
+        public Installment(DateTime dueDate, double amount)
         {
-            Date = date;
+            DueDate = dueDate;
             Amount = amount;
 
         }

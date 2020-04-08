@@ -7,16 +7,18 @@ namespace GeneratorC.Entities
     class Contract
     {
 
-        public int Name { get; set; }
+        public int Number { get; set; }
         public DateTime Date { get; private set; }
         public double TotalValue { get; set; }
         public Installment Installment { get; set; }
 
 
-        public Contract(int name, DateTime date)
+        public Contract(int number, DateTime date)
         {
-            Name = name;
+            Number = number;
             Date = date;
         }
+
+
     }
 }
