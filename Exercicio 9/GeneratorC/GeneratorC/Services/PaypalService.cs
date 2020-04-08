@@ -11,12 +11,14 @@ namespace GeneratorC.Services
 
         public double Paymentfee(double amaunt)
         {
-            return amaunt * 0.01;
+            double temp = (amaunt*0.01)+amaunt;
+            return temp;
         }
 
         public double Interest(double amaunt, int month)
         {
-            return amaunt * 0.02 * month;
+            double temp = (amaunt * 0.01*month) + amaunt;
+            return temp;
         }
 
     }

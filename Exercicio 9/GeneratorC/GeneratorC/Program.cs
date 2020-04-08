@@ -14,9 +14,9 @@ namespace GeneratorC
             Console.Write("Recebe numero: ");
             int number = int.Parse(Console.ReadLine());
             Console.Write("Recebe Data: ");
-            DateTime date = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm",CultureInfo.InvariantCulture);
+            DateTime date = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy",CultureInfo.InvariantCulture);
             Console.Write("Recebe Valor contrato: ");
-            double value = double.Parse(Console.ReadLine());
+            double value = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             Console.Write("Recebe quantidade parcelas: ");
             int months = int.Parse(Console.ReadLine());
 

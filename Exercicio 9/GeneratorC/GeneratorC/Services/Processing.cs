@@ -17,11 +17,12 @@ namespace GeneratorC.Services
         public void ProcessContract(Contractt contractt, double months)
 
         {
-            double value = contractt.Value + _onlinePaymentoService.Paymentfee(contractt.Value);
+            double value = contractt.Value/months;
+            value = _onlinePaymentoService.Paymentfee(value);
             DateTime t1 = contractt.Date;
             for (int i = 1; i <= months; i++)
 
-                contractt.Installment.Add(new Installment(t1.AddMonths(i), (_onlinePaymentoService.Interest(value, i)+value)));
+                contractt.Installment.Add(new Installment(t1.AddMonths(i), _onlinePaymentoService.Interest(value, i)));
 
 
         }
