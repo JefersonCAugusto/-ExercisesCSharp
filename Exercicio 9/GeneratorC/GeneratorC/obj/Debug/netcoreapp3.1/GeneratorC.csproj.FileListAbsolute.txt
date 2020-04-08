@@ -1,0 +1,13 @@
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\bin\Debug\netcoreapp3.1\GeneratorC.exe
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\bin\Debug\netcoreapp3.1\GeneratorC.deps.json
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\bin\Debug\netcoreapp3.1\GeneratorC.runtimeconfig.json
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\bin\Debug\netcoreapp3.1\GeneratorC.runtimeconfig.dev.json
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\bin\Debug\netcoreapp3.1\GeneratorC.dll
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\bin\Debug\netcoreapp3.1\GeneratorC.pdb
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.csprojAssemblyReference.cache
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.csproj.CoreCompileInputs.cache
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.AssemblyInfoInputs.cache
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.AssemblyInfo.cs
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.dll
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.pdb
+C:\Users\Guto\Desktop\-ExercisesCSharp\Exercicio 9\GeneratorC\GeneratorC\obj\Debug\netcoreapp3.1\GeneratorC.genruntimeconfig.cache

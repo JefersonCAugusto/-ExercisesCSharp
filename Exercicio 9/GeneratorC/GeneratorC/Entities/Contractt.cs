@@ -18,5 +18,24 @@ namespace GeneratorC.Entities
             Date = date;
             Value = value;
         }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Nº: ");
+            sb.AppendLine(Number.ToString());
+            sb.AppendLine("-------------");
+            foreach (Installment x1 in Installment)
+            {
+                sb.Append("Valor: ");
+                sb.AppendLine(x1.Amount.ToString());
+                sb.Append("Vencimento: ");
+                sb.AppendLine(x1.DueDate.ToString());
+                sb.AppendLine("-------------");
+                
+            }
+            return sb.ToString();
+
+        }
     }
 }
